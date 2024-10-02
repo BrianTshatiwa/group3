@@ -2,10 +2,11 @@
 eclipse.project.name = appName + '-core'
 
 dependencies {
-if(enableGraalNative == 'true') {
+ // if (enableGraalNative == 'true') {
    // implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"
-  //}
-}
-api "com.badlogicgames.gdx:gdx:$gdxVersion"
+//    //}
+ // }
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
 
 //
+}
